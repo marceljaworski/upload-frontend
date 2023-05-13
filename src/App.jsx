@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import './App.scss';
 import axios from 'axios';
 
-const backendUrl = 'http://localhost:5889';
+// const backendUrl = 'http://localhost:5889';
+const backendUrl = 'https://upload-backend-4avq.onrender.com';
 const _initialFormFields = {
 	title: '',
 	description: '',
